@@ -213,7 +213,7 @@ const getAllAntibioticDrugs = drugs.filter(function (each) {
 //Number:  2
 const arrayOfDrugsNameInLowercase = drugs.map((each) =>{
     return {
-        Name: each.name.toLocaleLowerCase()
+        Name: each.name.toLowerCase()
     }
 })
 console.log(arrayOfDrugsNameInLowercase)
